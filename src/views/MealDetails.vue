@@ -1,6 +1,6 @@
 <template>
 	<!-- <pre>{{meal}}</pre> -->
-	<div class="grid grid-cols-3 m-4 rounded shadow-md bg-gray-100">
+	<div class="grid lg:grid-cols-3 md:grid-col-2 m-4 rounded shadow-md bg-gray-100">
 		<div class="col-span-2 ">
 			<div class="container mx-auto px-1 py-1">
 			    <div class="bg-white  overflow-hidden">
