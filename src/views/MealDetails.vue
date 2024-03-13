@@ -33,7 +33,7 @@
 			    <ul class="list-disc list-inside">
 			    	<template v-for="(el, ind) of new Array(20)">
 					<li v-if="meal[`strIngredient${ind + 1}`]" 
-					class="text-gray-800 mb-2 bg-secondary-100 text-secondary-200 text-xs  font-bold rounded-full p-2">
+					class="text-gray-800 mb-2 bg-secondary-100 text-secondary-200 text-xs  font-bold rounded-full p-2 w-full">
 					 {{ind + 1}}. {{meal[`strIngredient${ind + 1}`]}} 
 					</li>
 				</template>
@@ -46,7 +46,7 @@
 			    <ul class="list-disc list-inside">
 			    	<template v-for="(el, ind) of new Array(20)">
 					<li v-if="meal[`strMeasure${ind + 1}`]" 
-					class="text-gray-800 mb-2 bg-secondary-100 text-secondary-200 text-xs  font-bold rounded-full p-2">
+					class="text-gray-800 mb-2 bg-secondary-100 text-secondary-200 text-xs  font-bold rounded-full p-2 w-full">
 					 {{ind + 1}}. {{meal[`strMeasure${ind + 1}`]}} 
 					</li>
 				</template>
